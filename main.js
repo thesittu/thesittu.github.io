@@ -8,7 +8,7 @@ $('#paraBack').mousemove(function (e) {
 
 function callParallax(e) {
     parallaxIt(e, '.paraSlide', -100);
-    parallaxIt(e, 'img', -30);
+    parallaxIt(e, '.paraImg', -60);
 }
 
 function parallaxIt(e, target, movement) {
